@@ -54,12 +54,14 @@ h1{
 
 .jumbotron{
   background-color: #170a19;
+}
+
+.jumbotron, .jumbotron *, .jumbotron h1 {
   color: #e4f2f0;
 }
 
-a{
+.jumbotron a, a{
   color: #D3BCC0;
-  transition: color .5s;
 }
 
 a:hover{

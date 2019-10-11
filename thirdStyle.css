@@ -46,12 +46,14 @@
 
 .jumbotron{
   background-color: #EEEEEE;
+}
+
+.jumbotron, .jumbotron *, .jumbotron h1 {
   color: #333333;
 }
 
-a{
+.jumbotron a, a{
   color: #337AB7;
-  transition: color .5s;
 }
 
 a:hover{
