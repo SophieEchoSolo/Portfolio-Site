@@ -1,0 +1,64 @@
+#pstyle{
+  color: #9D9D9D;
+}
+
+#thirdStyle{
+  background-color: #337AB7;
+  color: #FFFFFF;
+  border-radius: 4px;
+  border-color: #000000
+}
+
+#altStyle{
+  background-color: #337AB7;
+  color: #FFFFFF;
+  border-radius: 4px;
+  border-color: #000000
+}
+
+#mainStyle{
+  background-color: #337AB7;
+  color: #FFFFFF;
+  border-radius: 4px;
+  border-color: #000000
+}
+
+#topbar{
+  background-color: #222222;
+}
+
+#linkedin-button{
+  background-color: #286090;
+  color: #FFFFFF;
+  border-color: #000000;
+}
+
+#github-button{
+  background-color: #286090;
+  color: #FFFFFF;
+  border-color: #000000;
+}
+
+#style-button{
+  background-color: #cccccc;
+  color: #eeeeee;
+}
+
+.jumbotron{
+  background-color: #EEEEEE;
+  color: #333333;
+}
+
+a{
+  color: #337AB7;
+  transition: color .5s;
+}
+
+a:hover{
+  color: #337AB7
+}
+
+body{
+  background-color: #FFFFFF;
+  color: #333333;
+}
