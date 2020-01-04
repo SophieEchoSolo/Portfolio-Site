@@ -12,48 +12,48 @@ h1{
 
 #thirdStyle{
   background-color: #99d8d0;
-  color: #170a19;
+  color: #675569;
   border-radius: 4px;
   border-color: #000000
 }
 
 #altStyle{
   background-color: #99d8d0;
-  color: #170a19;
+  color: #675569;
   border-radius: 4px;
   border-color: #000000
 }
 
 #mainStyle{
   background-color: #99d8d0;
-  color: #170a19;
+  color: #675569;
   border-radius: 4px;
   border-color: #000000
 }
 
 #topbar{
-  background-color: #170a19;
+  background-color: #675569;
 }
 
 #linkedin-button{
   background-color: #99d8d0;
-  color: #170a19;
+  color: #675569;
   border-color: #000000
 }
 
 #github-button{
   background-color: #99d8d0;
-  color: #170a19;
+  color: #675569;
   border-color: #000000
 }
 
 #style-button{
   background-color: #99d8d0;
-  color: #170a19;
+  color: #675569;
 }
 
 .jumbotron{
-  background-color: #170a19;
+  background-color: #675569;
 }
 
 .jumbotron, .jumbotron *, .jumbotron h1 {
@@ -61,7 +61,7 @@ h1{
 }
 
 .jumbotron a, a{
-  color: #D3BCC0;
+  color: #170a19;
 }
 
 a:hover{
