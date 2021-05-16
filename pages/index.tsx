@@ -4,7 +4,7 @@ export default function Home(): JSX.Element {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Echo&apos;s Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="container-fluid">

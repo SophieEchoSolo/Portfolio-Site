@@ -101,7 +101,6 @@ h1{
 }
 
 .jumbotron,
-.jumbotron *,
 .jumbotron h1 {
     color: var(--jumbotron-text);
 }
