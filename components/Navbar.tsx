@@ -11,7 +11,7 @@ export default function Navbar({ updateStyle }: Props): JSX.Element {
         <div>
           <a
             id="linkedin-button"
-            href="https://www.linkedin.com/in/sophie-grey-lennon/"
+            href="https://www.linkedin.com/in/echo-solo/"
             className="btn btn-primary btn-md active"
             role="button"
             type="button"
@@ -20,7 +20,7 @@ export default function Navbar({ updateStyle }: Props): JSX.Element {
           </a>
           <a
             id="github-button"
-            href="https://github.com/SophieOrgana/"
+            href="https://github.com/SophieEchoSolo"
             className="btn btn-primary btn-md active"
             role="button"
             type="button"

@@ -19,6 +19,15 @@ export default function Home(): JSX.Element {
           <h3>Projects:</h3>
           <ol>
             <li>
+              <a href="https://sophiesolo.biz/size-converter.html">Size Converter App</a>
+            </li>
+            <ul>
+              <li>Created app using React</li>
+              <li>Provides templates for user based on typical clothes sizing charts</li>
+              <li>Automatically adds and removes rows as needed</li>
+              <li>Converts sizes from metric to imperial for easier international shopping</li>
+            </ul>
+            <li>
               <a href="https://github.com/SophieOrgana/relationship_app">
                 Relationship Molecule App
               </a>

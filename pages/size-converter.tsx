@@ -17,10 +17,11 @@ function FormRow({ clothesPart }: { clothesPart: string }): JSX.Element {
       <td>
         <input
           type="number"
-          placeholder={`Enter ${clothesPart} in centimeters`}
+          placeholder={`${clothesPart} in cm`}
           onChange={(ev) => SetFormValue(ev.target.value)}
         />
       </td>
+      <td>=</td>
       <td>{!Number.isNaN(inVal) && <>{inVal.toFixed(1)}&quot;</>}</td>
     </tr>
   );
@@ -64,7 +65,7 @@ function CustomFormRow({ updateRow }: { updateRow: (hasContent: boolean) => void
       <td>
         <input
           type="number"
-          placeholder={`Enter size in centimeters`}
+          placeholder={`Size in cm`}
           onChange={(ev) => {
             SetFormValue(ev.target.value);
             if (ev.target.value) updateContentLive();
@@ -72,6 +73,7 @@ function CustomFormRow({ updateRow }: { updateRow: (hasContent: boolean) => void
           onBlur={updateContent}
         />
       </td>
+      <td>=</td>
       <td>{!Number.isNaN(inVal) && <>{inVal.toFixed(1)}&quot;</>}</td>
     </tr>
   );
@@ -123,9 +125,18 @@ export default function Home(): JSX.Element {
       </Head>
       <div className="container-fluid">
         <div className="jumbotron">
+          <h4>Size Converter App</h4>
+          <p>
+            Please choose a template and then enter the appropriate measurements. This app will
+            convert the sizing from centimeters to inches for easier international shopping.{' '}
+          </p>
+          <p>
+            The custom template will allow you to create your own garment template. Rows will be
+            removed as data is cleared.
+          </p>
           {/* eslint-disable-next-line jsx-a11y/no-onchange */}
           <select id="templateSelect" onChange={(ev) => SetSelectedKey(ev.target.value)}>
-            <option value="">SELECT CLOTHING TYPE</option>
+            <option value="">Select Clothing Template</option>
             {Object.keys(Templates).map((key) => (
               <option key={key}>{key}</option>
             ))}
