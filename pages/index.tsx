@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Home(): JSX.Element {
   return (
@@ -19,7 +20,9 @@ export default function Home(): JSX.Element {
           <h3>Projects:</h3>
           <ol>
             <li>
-              <a href="https://sophiesolo.biz/size-converter">Size Converter App</a>
+              <Link href="/size-converter">
+                <a>Size Converter App</a>
+              </Link>
             </li>
             <ul>
               <li>Created app using React</li>
