@@ -19,7 +19,7 @@ export default function Home(): JSX.Element {
           <h3>Projects:</h3>
           <ol>
             <li>
-              <a href="https://sophiesolo.biz/size-converter.html">Size Converter App</a>
+              <a href="https://sophiesolo.biz/size-converter">Size Converter App</a>
             </li>
             <ul>
               <li>Created app using React</li>
