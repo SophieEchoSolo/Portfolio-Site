@@ -4,7 +4,7 @@ export default function Navbar({ updateStyle }: Props): JSX.Element {
   return (
     <nav id="topbar" className="navbar navbar-expand-lg navbar-inverse">
       <a id="pstyle" className="navbar-brand" href="#">
-        Sophie Solo
+        Sophie Echo Solo
       </a>
 
       <div className="container-fluid" id="topButtons">
