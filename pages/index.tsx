@@ -15,9 +15,18 @@ export default function Home(): JSX.Element {
             {' '}
             Contact Me at: <a href="mailto:admin@sophiesolo.biz">admin@sophiesolo.biz</a>
           </h3>
-          <h2>Competent with MySQL and Python with some knowledge in Node.js</h2>
+          <h2>Backend Web Developer for NC Central University</h2>
+          <h2>Experienced with Druapl CMS, Twig Templates, HTML, CSS, PHP, and JS</h2>
 
-          <h3>Projects:</h3>
+          <h3>Work Experience</h3>
+          <ol>
+            <li>Complete weekly Code Base updates via Acquia Cloud Platform</li>
+            <li>Update deprecated code and Drupal modules</li>
+            <li>Assist with daily Web Services tickets such as webpage updates and creations</li>
+            <li>Create webforms via Drupal CMS and NextGen</li>
+          </ol>
+
+          <h3>Personal Projects:</h3>
           <ol>
             <li>
               <Link href="/size-converter">
